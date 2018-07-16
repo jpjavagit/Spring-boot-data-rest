@@ -10,7 +10,7 @@ $ mvn clean install
 $ mvn spring-boot:run
 ```
 
-* Be sure the Maven is installed. 
+Be sure the Maven is installed. 
 
 I have worked with Postman to run the Rest calls, but you`re free to choose your preference tool.
 
