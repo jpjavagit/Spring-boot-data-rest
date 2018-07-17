@@ -21,4 +21,5 @@ public class Hamburger {
     private BigDecimal price;
     private String store;
     private Boolean specialSauce;
+    private String beverage;
 }
