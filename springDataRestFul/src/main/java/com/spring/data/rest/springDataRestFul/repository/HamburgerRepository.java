@@ -12,4 +12,5 @@ import java.util.List;
 @RepositoryRestResource(collectionResourceRel = "burger", path = "burger")
 public interface HamburgerRepository extends PagingAndSortingRepository<Hamburger, Long> {
     List<Hamburger> findByName(@Param("name") String name);
+    List<Hamburger> findByStore(@Param("store") String store);
 }
